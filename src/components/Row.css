@@ -44,6 +44,8 @@
   }
   .arrow {
     transition: 400ms all ease-in-out;
+    font-size: 1.4rem;
+    font-family: serif;
   }
   .arrow:hover {
     transition: 400ms all ease-in-out;
