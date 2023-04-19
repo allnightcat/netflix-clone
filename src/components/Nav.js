@@ -25,12 +25,15 @@ function Nav() {
     navigate(`/search?q=${e.target.value}`);
   };
 
+  const navigation = useNavigate();
+
   return (
     <nav className={`nav ${show && "nav_black"}`}>
       <img
         alt="netflix_logo"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1198px-Netflix_2015_logo.svg.png"
         className="netfilx_logo"
+        onClick={() => navigation("/")}
       />
       <input
         value={searchValue}
