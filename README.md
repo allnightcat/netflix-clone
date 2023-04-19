@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+## 넷플릭스 클론
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 페이지 구성
 
-## Available Scripts
+1. Main page  
+    a. header: Netflix logo와 유저 이미지가 있다. Netflix logo를 누르면 Main Page로 이동한다.  
+    b. banner : 하나의 영화를 랜덤하여 보여준다. Play 버튼과 More Information 버튼이 있으며, Play 버튼을 누르면 동영상이 해당 영화의 예고편 영상이 재생된다. (예고 동영상 없을 수 있음)   
+    c. 각 영화 리스트 : 트랜드, 로맨스, 호러, 다큐맨터리, 코메디 등 영화 장르별 리스트가 보여진다. 클릭 시 상세 정보를 모달로 확인할 수 있다.  
+    d. footer: 넷플릭스 copyright & 정책 등 클론. 클릭해도 link 이동이 없다.  
+2. Search Page    
+    a. Main Page에서 영화 검색란에 검색어를 입력하면 관련 영화를 찾을 수 있다.  
+    b. 키워드 연속 입력이 끝나면 관련 검색어로 영화 api가 호출된다.
+3. Detail Page  
+    a. 상세 정보 페이지  
+    b. Search page에서 영화 하나를 클릭 시 볼 수 있는 페이지이다.  
+    c. 현재는 영화 이미지만 넣어두었다. 
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 사용 기술
+1. HTML5, CSS3, JavaScript 기본 사용
+2. React-App 활용
+3. Movie api를 받아서 영화 리스트를 보여주었음. (https://www.themoviedb.org/)
