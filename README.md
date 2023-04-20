@@ -1,5 +1,8 @@
 ## 넷플릭스 클론
 
+### 배포  
+https://allnightcat.github.io/netflix-clone   
+   
 ### 페이지 구성
 
 1. Main page  
